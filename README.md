@@ -14,4 +14,4 @@ Also, use CSS Grids to ensure the footer is always at the bottom of the page eve
 
 This video shows you how to complete the lesson task 3.3. Only watch it after attempting the lesson task by yourself.
 
-[View on Vimeo](https://vimeo.com/manage/481242564/general)
+[View on Vimeo](https://vimeo.com/481242564/00dd53e55a)
