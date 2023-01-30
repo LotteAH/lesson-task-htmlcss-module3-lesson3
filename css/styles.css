@@ -5,6 +5,11 @@
 
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
 }
 
 h1,
@@ -64,6 +69,9 @@ header a {
   font-size: 0.8em;
   grid-column: 2;
   grid-row: 2;
+  min-width: 51.2 px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .active {
@@ -84,7 +92,8 @@ header a {
  grid-column: -1/1; 
 }
 
-.products h3 
+.products h2, 
+.products h3, 
 .products p{
   grid-column: 1;
   font-size: 0.9em;
@@ -92,6 +101,13 @@ header a {
 
 }
 
+.products--sale {
+  display: flex;
+}
+
+.old-price{
+  text-decoration: line-through;
+}
 
 .cta-sale {
   background-color: #127300;
@@ -99,6 +115,7 @@ header a {
 
 footer {
   text-align: center;
+  padding: 20px;
 }
 
 /* Home page */
@@ -244,4 +261,20 @@ textarea {
   justify-content: space-between;
   gap: 10px;
   margin-top: 5px;
+}
+
+/* Guitars Page */
+
+.guitars {
+  max-width: 1000px;
+  margin: auto;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.products img {
+width: 100%;
 }
